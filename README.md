@@ -3,16 +3,16 @@
 Code used in our findings of EMNLP'23 paper for evaluating the creativity of LLMs.
 
 ## Data
-1. Saved preprocessed dataset: [`dataset/`](dataset/)
+1. Saved preprocessed dataset: `dataset/`
 
 1. Origin dataset: 
-    * Human-level baseline: [`human-level/`](human-level/)
+    * Human-level baseline: `human-level/`
 
     *  Models:
-        * Greedy search: [`greedy_search/`](greedy_search/)
-        * Top-$p$ ($p=0.9, t=0.7$): [`Top_p/`](Top_p/)
-        * Top-$p$ (scaling t): [`temperature/`](temperature/)
-        * Validating DAT: [`validating_DAT/`](validating_DAT/)
+        * Greedy search: `greedy_search/`
+        * Top-$p$ ($p=0.9, t=0.7$): `Top_p/`
+        * Top-$p$ (scaling t): `temperature/`
+        * Validating DAT: `validating_DAT/`
     
 1. Word embeddings: word2vec and fasttext are used to validate the effect of different word embedding methods.
     * GloVe: `glove.840B.300d.txt` (need to download from [here](https://nlp.stanford.edu/projects/glove/))
